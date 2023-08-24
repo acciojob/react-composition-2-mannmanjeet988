@@ -1,1 +1,17 @@
+button{
+background-color: maroon;
+color:white;
+margin:10px;
+}
 
+.model-overlay{
+    width:25vw;
+    display:flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+    border:2px solid navy;
+}
+
+.model-overlay button{
+    display:inline-block;
+}
