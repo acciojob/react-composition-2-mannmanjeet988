@@ -1,21 +1,21 @@
-import React,{useState} from "react"
-import './../styles/App.css';
-import Child from './Child'
+// import React,{useState} from "react"
+// import './../styles/App.css';
+// import Child from './Child'
 
-const Parent =() =>{
+// const Parent =() =>{
 
-    const [showProp, setShowProp] = useState(false)
+//     const [showProp, setShowProp] = useState(false)
 
-    function handleCloseModal(){
-        setShowProp(false)
-      }
+//     function handleCloseModal(){
+//         setShowProp(false)
+//       }
 
-    return (
-        <div className="parent">
-            <button onClick={()=>setShowProp(true)}>Show Modal</button>
-            <Child showProp={showProp} onClose={handleCloseModal}/>
-        </div>
-    )
-}
+//     return (
+//         <div className="parent">
+//             <button onClick={()=>setShowProp(true)}>Show Modal</button>
+//             <Child showProp={showProp} onClose={handleCloseModal}/>
+//         </div>
+//     )
+// }
 
-export default Parent
+// export default Parent
